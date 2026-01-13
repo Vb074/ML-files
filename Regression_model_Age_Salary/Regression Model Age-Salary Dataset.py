@@ -6,7 +6,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 
-df = pd.read_csv('path-to-file')
+df = pd.read_csv('Salary_vs_Age.csv')
 
 X = df[['Age']].to_numpy()
 y = df['Salary '].to_numpy()

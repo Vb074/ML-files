@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv('/Users/vadimbodnarenko/Downloads/Lab2A-2/Country_Risk_2019_Data.csv')
+df = pd.read_csv('Country_Risk_2019_Data.csv')
 
 #Checking for correlation 
 print(df.corr(numeric_only = True))
